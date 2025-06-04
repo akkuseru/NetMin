@@ -1,0 +1,15 @@
+# Ignorar archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar carpetas __pycache__ en cualquier subdirectorio
+**/__pycache__/
+
+# Archivos del entorno virtual (por si lo usas)
+venv/
+.env
+*.env
+
+# Archivos específicos
+scanner/subnet_detector.py
